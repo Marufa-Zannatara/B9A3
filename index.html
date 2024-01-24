@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hockey's</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <nav class="flex flex-row mx-auto  lg:px-24  px-8 ">
+        <div class="navbar bg-base-100">
+            <a class="btn btn-ghost text-bold">Hockey<span class="text-red-400">'</span>s </a>
+          </div>
+    
+          <div class="navbar bg-base-100">
+            <div class=" navbar-start ">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mx-9 hidden">
+              <div class="navbar-center">
+                <a class="btn btn-ghost text-warning">Home</a>
+              </div>
+
+              <div class="navbar-center">
+                <a class="btn btn-ghost text-black">About</a>
+              </div>
+              <div class="navbar-center">
+                <a class="btn btn-ghost text-black">Pages</a>
+              </div>
+              <div class="navbar-center">
+                <a class="btn btn-ghost text-black">Blog</a>
+              </div>
+
+              <div class="navbar-center">
+                <a class="btn btn-ghost text-black">Contact</a>
+              </div>
+
+          </div>
+
+            
+            <div class="navbar-end mx-10">
+              <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button>
+              <button class="btn btn-ghost btn-circle mx-auto">
+              </button>
+
+              <button class="btn btn-warning">GET TICKET</button>
+            </div>
+          </div>
+    </nav>
+
+</head>
+
+
+<body>
+ <!-- Slider section -->
+    <section class="mx-auto  lg:px-24  px-8">
+    <div class="carousel max-w-full   bg-no-repeat">
+        
+            <div id="slide1" class="carousel-item relative w-full ">
+              <img src="/images/2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="/images/3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+
+    </div>
+</section>
+
+<hr class=" mx-auto lg:m-24 px-8 leading-4"></hr>
+
+<!-- Header text of Professional Hockeys Club -->
+<section class="mt-5">
+    <div class="text-center font-extrabold "> 
+        <h1 class="text-3xl">Professional Hockeys Club </h1>
+        <article class="text-center font-normal m-auto  px-28">This is a Professional Hockey Club. <br>
+            We provide High facility to our members.
+        
+        </article>
+    </div>
+</section>
+
+<hr class=" mx-auto lg:m-24 px-8 leading-4"></hr>
+
+    <!-- Professional Hockeys Club -->
+    <section class=" flex flex-col m-auto  px-28 lg:flex-row ">
+    <div class="m-8">
+        
+        <div class="radial-progress text-error" style="--value:87;" role="progressbar"><span class="text-neutral-950 font-bold"> 87%</span></div>
+        <h1 class="font-semibold align-middle pt-2"> Prayer Facility</h1>
+        <p>You will get prayer time during practice.</p>
+    </div>
+    
+    <div class="m-8">
+        <div class="radial-progress text-accent" style="--value:95;" role="progressbar"> <span class="text-neutral-950 font-bold"> 95% </span></div>
+            <h1 class="font-semibold align-middle pt-2"> Experienced Coach</h1>
+            <p>We have very Experienced Coach to guide you.</p>
+    </div>
+    <div class="m-8">
+        <div class="radial-progress text-warning" style="--value:90;" role="progressbar"><span class="text-neutral-950 font-bold"> 90% </span></div>
+        <h1 class="font-semibold align-middle pt-2"> Senior Player</h1>
+        <p> You'll get senior player in your batch to improve your skill.</p>
+    </div>
+    
+    <div class="m-8"> 
+        <div class="radial-progress text-primary" style="--value:80;" role="progressbar"><span class="text-neutral-950 font-bold"> 80% </span></div>
+        <h1 class="font-semibold align-middle pt-2"> Experienced Coach</h1>
+        <p>You will get prayer time during practice.</p></div>
+    
+    </section>
+</body>
+
+</html>
