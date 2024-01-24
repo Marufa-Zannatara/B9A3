@@ -9,26 +9,29 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <nav class="flex flex-row mx-auto  lg:px-24  px-8 ">
-        <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 ">
+        <div class=" navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class=" navbar bg-base-100">
             <a class="btn btn-ghost text-bold">Hockey<span class="text-red-400">'</span>s </a>
           </div>
     
-          <div class="navbar bg-base-100">
-            <div class=" navbar-start ">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li><a>About</a></li>
-                  <li><a>Pages</a></li>
-                  <li><a>Blog</a></li>
-                  <li><a>Contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="mx-9 collapse lg:visible flex">
+        
+            <div class="mx-9  lg:visible flex">
               <div class="navbar-center">
                 <a class="btn btn-ghost text-warning">Home</a>
               </div>
@@ -71,14 +74,14 @@
     <div class="carousel max-w-full   bg-no-repeat">
         
             <div id="slide1" class="carousel-item relative w-full ">
-              <img src="images/2.png" class="w-full" />
+              <img src="images/4.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
-              <img src="images/3.png" class="w-full" />
+              <img src="images/1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle">❮</a> 
                 <a href="#slide1" class="btn btn-circle">❯</a>
@@ -128,6 +131,49 @@
         <p>You will get prayer time during practice.</p></div>
     
     </section>
+
+<!--Footer section -->
+<section class="flex-col  mx-auto lg:flex-row m-24 px-8 ">
+  <footer class="footer p-10 bg-base-200 bg-neutral-950 text-neutral-content">
+    <aside>
+      <h1 class="text-2xl font-bold"> Get In Touch</h1>
+      <p>Feel free to contact with us</p>
+
+      <div class="flex size-6">
+      <img src="/images/mail.png" alt="">
+      <p>hockeys@support.com</p>
+      </div>
+      <div class="flex size-6">
+        <img src="/images/call.png" alt="">
+        <p>(+88)-23456765</p>
+        </div>
+    </aside> 
+    <nav>
+      <header class="footer-title text-white flex-row">Company</header> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Leadership</a>
+      <a class="link link-hover">Careers</a>
+      <a class="link link-hover">News & Article</a>
+      <a class="link link-hover">Legal Notice</a>
+
+    </nav> 
+    <nav>
+      <header class="footer-title text-white">Support</header> 
+      <a class="link link-hover"> Help Center</a>
+      <a class="link link-hover">FAQ</a>
+      <a class="link link-hover"> Ticket Support</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav> 
+    <nav>
+      <header class="footer-title  text-white">Services</header> 
+      <a class="link link-hover">Academy Group</a>
+      <a class="link link-hover">Lesson Private</a>
+      <a class="link link-hover">Lesson Hockeys for kids</a>
+      <a class="link link-hover">Hockeys for Adult</a>
+    </nav>
+  </footer>
+  
+</section>    
 </body>
 
 </html>
